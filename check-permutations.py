@@ -13,7 +13,6 @@ def check_permutations(base, second):
                 return(print("not a perm"))
             if b == a:
                 print(new_base)
-                #
                 new_base = base.replace(a, "")
                 print(new_base)
                 new_second = second.replace(b, "")
